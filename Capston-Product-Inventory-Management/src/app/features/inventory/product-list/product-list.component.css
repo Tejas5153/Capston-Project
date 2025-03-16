@@ -1,0 +1,76 @@
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    flex: 1;
+    /* Product name ko left me fix karne ke liye */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    /* Buttons ke beech spacing */
+}
+
+button {
+    width: 80px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+.view-btn {
+    background: #007bff;
+    color: white;
+}
+
+.edit-btn {
+    background: #beba2e;
+    color: white;
+}
+
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.add-product-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 260px;
+    font-size: 16px;
+    background: #28a745;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
