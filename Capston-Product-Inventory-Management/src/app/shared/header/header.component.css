@@ -1,0 +1,57 @@
+nav {
+    background-color: #007bff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* Nav items ko ek line me lane ke liye */
+    justify-content: space-between;
+    /* Items ko evenly space karne ke liye */
+    align-items: center;
+    /* Center alignment */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    /* Links ke beech space */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+
+/* Buttons ko bhi same line me dikhane ke liye */
+
+.nav-actions {
+    display: flex;
+    gap: 10px;
+    /* Buttons ke beech space */
+}
+
+nav button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background-color: #cc0000;
+}
